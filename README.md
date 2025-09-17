@@ -3,6 +3,7 @@ Olympic Games Data Analysis (1896 - 2016)
 This project explores the historical Olympic Games data from 1896 to 2016. It includes data cleaning, transformation, exploratory data analysis (EDA), and advanced visualizations to uncover insights such as medal distribution, country performance, athlete characteristics, and sport-specific dominance.
 
 📂 Dataset
+
 The dataset used in this project is sourced from Kaggle - The Olympic History Dataset, which consists of:
 
 athlete_events.csv: Contains details about athletes, events, and medals
@@ -13,6 +14,7 @@ Pandas, NumPy
 Matplotlib, Seaborn
 Jupyter Notebook
 📊 Project Highlights
+
 1. Data Preparation
 Merged athlete_events.csv with noc_regions.csv
 Filtered only Summer Olympics
@@ -25,6 +27,7 @@ Line plot showing number of countries participating in each Summer Olympics—st
 A scatterplot revealing distinct clusters for male and female athletes.
 
 🥇 Top Medal-Winning Athletes
+
 Gold: Michael Phelps (23)
 Silver: Shirley Babashoff, Aleksandr Dityatin (6 each)
 Bronze: Franziska van Almsick, Merlene Ottey (6 each)
