@@ -1,94 +1,82 @@
 # Olympic-Games-Data-Analysis-1896---2016-
-🏅 Olympic Games Data Analysis (1896 - 2016)
+# 🏅 Olympic Games Data Analysis (1896 - 2016)
 
-This project explores the historical Olympic Games data from 1896 to 2016. It covers data cleaning, transformation, exploratory data analysis (EDA), and advanced visualizations to uncover key insights such as:
+This project explores the **historical Olympic Games data from 1896 to 2016**. It covers **data cleaning, transformation, exploratory data analysis (EDA), and advanced visualizations** to uncover key insights such as:
 
-🥇 Medal distribution
+- 🥇 Medal distribution  
+- 🌍 Country-wise performance  
+- 🏃 Athlete characteristics  
+- 🏆 Sport-specific dominance  
 
-🌍 Country-wise performance
+---
 
-🏃 Athlete characteristics
+## 📂 Dataset
 
-🏆 Sport-specific dominance
+The dataset is sourced from **[Kaggle – The Olympic History Dataset](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)** and consists of:
 
-📂 Dataset
+- **athlete_events.csv** → Athlete details, events, and medals  
+- **noc_regions.csv** → Country codes and corresponding regions  
 
-The dataset is sourced from Kaggle – The Olympic History Dataset
- and consists of:
+---
 
-athlete_events.csv → Athlete details, events, and medals
+## 🔧 Tools & Libraries
 
-noc_regions.csv → Country codes and corresponding regions
+- **Python**  
+- **Pandas**, **NumPy**  
+- **Matplotlib**, **Seaborn**  
+- **Jupyter Notebook**  
 
-🔧 Tools & Libraries
+---
 
-Python
+## 📊 Project Highlights
 
-Pandas, NumPy
+### 🔹 Data Preparation
+- Merged `athlete_events.csv` with `noc_regions.csv`  
+- Filtered only **Summer Olympics**  
+- Handled missing values, duplicates, and outliers  
 
-Matplotlib, Seaborn
+### 🔹 Key Insights & Visualizations
 
-Jupyter Notebook
+📈 **Countries Participation Over Time**  
+- Line plot showing number of countries participating in each Summer Olympics  
+- Strong growth trend from **1900 to 2016**  
 
-📊 Project Highlights
-🔹 Data Preparation
+⚖️ **Height vs Weight of Athletes by Gender**  
+- Scatterplot showing distinct clusters for **male vs female athletes**  
 
-Merged athlete_events.csv with noc_regions.csv
+🥇 **Top Medal-Winning Athletes**  
+- **Gold** → Michael Phelps (23)  
+- **Silver** → Shirley Babashoff, Aleksandr Dityatin (6 each)  
+- **Bronze** → Franziska van Almsick, Merlene Ottey (6 each)  
 
-Filtered only Summer Olympics
+🏳️ **Medal Distribution – Top 10 Countries**  
+- Stacked bar chart showing USA, Russia, and Germany lead in medals  
+- USA dominates with **1030 Gold, 801 Silver, 707 Bronze**  
 
-Handled missing values, duplicates, and outliers
+🏆 **Sport-Specific Gold Dominance by USA**  
+- Swimming → 649 Golds  
+- Athletics → 542 Golds  
+- Basketball → 281 Golds  
 
-🔹 Key Insights & Visualizations
+---
 
-📈 Countries Participation Over Time
+## 📷 Sample Visualizations
 
-Line plot showing number of countries participating in each Summer Olympics
+- 📈 Countries Participating Over Time  
+- ⚖️ Height vs Weight by Gender  
+- 🏳️ Medal Breakdown – Top 10 Countries  
 
-Strong growth trend from 1900 to 2016
+---
 
-⚖️ Height vs Weight of Athletes by Gender
+## 🚀 Future Improvements
 
-Scatterplot showing distinct clusters for male vs female athletes
+- Add **Winter Olympics data** analysis  
+- Create **interactive dashboards** using **Plotly / Streamlit**  
+- Build **ML models to predict medal counts**  
 
-🥇 Top Medal-Winning Athletes
+---
 
-Gold → Michael Phelps (23)
+## 🤝 Acknowledgements
 
-Silver → Shirley Babashoff, Aleksandr Dityatin (6 each)
+- Dataset by **Heesoo** on [Kaggle](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)  
 
-Bronze → Franziska van Almsick, Merlene Ottey (6 each)
-
-🏳️ Medal Distribution – Top 10 Countries
-
-Stacked bar chart showing USA, Russia, and Germany lead in medals
-
-USA dominates with 1030 Gold, 801 Silver, 707 Bronze
-
-🏆 Sport-Specific Gold Dominance by USA
-
-Swimming → 649 Golds
-
-Athletics → 542 Golds
-
-Basketball → 281 Golds
-
-📷 Sample Visualizations
-
-📈 Countries Participating Over Time
-
-⚖️ Height vs Weight by Gender
-
-🏳️ Medal Breakdown – Top 10 Countries
-
-🚀 Future Improvements
-
-Add Winter Olympics data analysis
-
-Create interactive dashboards using Plotly / Streamlit
-
-Build ML models to predict medal counts
-
-🤝 Acknowledgements
-
-Dataset by Heesoo on Kaggle
